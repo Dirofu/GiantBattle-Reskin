@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 147dcc554711a4d4985d527aa4eb42d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Explosion: {instanceID: 0}
+  - Heal: {instanceID: 0}
+  - _transparent: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
+  - _standard: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
