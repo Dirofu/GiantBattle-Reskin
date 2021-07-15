@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player_WhiteBlue
-  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: ef31dc83421c32442bce0d0ac628dedc, type: 3}
   m_ShaderKeywords: _SHADOWMIXMODE_MULTIPLY _SHARPRIMLIGHT_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -63,6 +63,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: ccad9b0732473ee4e95de81e50e9050f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampOtherLights:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RampTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -100,6 +108,8 @@ Material:
     - _Parallax: 0.02
     - _RampOffset: 0.5
     - _RimAmount: 0.7
+    - _RimMax: 1
+    - _RimMin: 0.5
     - _RimPower: 0.6547081
     - _SecondaryTextureSize: 1
     - _SecondaryTextureSpeedFactor: 0
@@ -109,6 +119,7 @@ Material:
     - _ShadowSize: 0.5
     - _ShadowStrength: 1
     - _SharpRimLight: 1
+    - _Smoothness: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecularFalloff: 1
     - _SpecularForceUnderShadow: 0
@@ -131,15 +142,19 @@ Material:
     - _VertexOffsetZ: 0.5
     - _ZWrite: 1
     - __dirty: 1
+    - __dummy__: 0
     m_Colors:
     - _Color: {r: 0.078431375, g: 0.64705884, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HColor: {r: 0.785, g: 0.785, b: 0.785, a: 1}
     - _LightColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0.5451996, g: 1, b: 0, a: 1}
     - _RampDark: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 0}
     - _RampLight: {r: 1, g: 1, b: 1, a: 0}
     - _RimColor: {r: 0, g: 0.7342432, b: 1, a: 1}
+    - _SColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
     - _ShadowColor: {r: 1, g: 0, b: 0.115766, a: 1}
+    - _SpecColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
     - _SpecularColor: {r: 2, g: 2, b: 2, a: 1}
     - _Tint: {r: 0, g: 0.73333335, b: 1, a: 1}
   m_BuildTextureStacks: []
