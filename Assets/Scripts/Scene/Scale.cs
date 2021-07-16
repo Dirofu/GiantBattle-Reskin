@@ -32,13 +32,13 @@ public class Scale : MonoBehaviour
         if (transform.localScale.x < _maxGrowth)
         {
             _growthAfterDestroy += _growthScale;
-            _movement.IncreaseSpeed(_growthScale.x);
+            _movement.IncreaseSpeed(_movement.StepSpeed);
             ScaleChanged?.Invoke(_growthAfterDestroy);
         }
         else
         {
             _growthAfterDestroy += _growthScale / 10;
-            _movement.IncreaseSpeed(_growthScale.x / 10);
+            _movement.IncreaseSpeed(_movement.StepSpeed / 10);
             ScaleChanged?.Invoke(_growthAfterDestroy / 10);
         }
     }
