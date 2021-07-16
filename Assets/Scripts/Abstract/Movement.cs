@@ -8,6 +8,8 @@ public abstract class Movement : MonoBehaviour
     protected Scale Scale;
     protected CharacterController Controller;
 
+    public float StepSpeed { get; private set; } = 0.1f;
+
     public Vector3 Direction { get; protected set; }
 
     public void IncreaseSpeed(float speed) => Speed += speed;
