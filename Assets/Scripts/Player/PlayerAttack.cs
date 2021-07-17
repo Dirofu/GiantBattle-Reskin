@@ -81,8 +81,6 @@ public class PlayerAttack : Attack
     {
         PunchParticle.Play();
 
-        //transform.LookAt(DestructibleObject.transform);
-
         float objectHealth = DestructibleObject.TakeDamage(Damage);
 
         if (objectHealth <= 0)

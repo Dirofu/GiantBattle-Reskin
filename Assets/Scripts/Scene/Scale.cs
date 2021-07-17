@@ -15,7 +15,7 @@ public class Scale : MonoBehaviour
 
     private void Start()
     {
-        _movement = GetComponent<PlayerMovement>();
+        _movement = GetComponent<Movement>();
         _growthAfterDestroy = transform.localScale;
     }
 
