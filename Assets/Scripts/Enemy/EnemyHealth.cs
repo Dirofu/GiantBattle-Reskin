@@ -1,6 +1,5 @@
 using UnityEngine;
 using RayFire;
-using System.Collections;
 
 public class EnemyHealth : Destructible
 {

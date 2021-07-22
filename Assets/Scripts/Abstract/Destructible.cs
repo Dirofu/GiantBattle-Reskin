@@ -37,5 +37,10 @@ public abstract class Destructible : MonoBehaviour
             HealthPoint += HealthPerLevel;
             Heal.Play();
         }
+        else
+        {
+            HealthPoint = MaxHealth;
+            Heal.Play();
+        }
     }
 }

@@ -96,7 +96,7 @@ public class PlayerAttack : Attack
             Damage = StandartDamage;
             Info.ChangeRankDestroy(RankDestroy);
 
-            _buildingExploseEffect.TryExplose(DestructibleObject.Rank, DestructibleObject.transform);
+            //_buildingExploseEffect.TryExplose(DestructibleObject.Rank, DestructibleObject.transform);
             OnDestroyObject?.Invoke();
             StopAttack();
         }
